@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace
+}
+body{
+    /* background-image:url("../image/background-facture.jpg"); */
+    /* background-size: cover; */
+}
+.nav{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    text-transform: uppercase;
+}
+nav a{
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+/* ----------------css_formulaire--------------------- */
+.div-form{
+    display: flex;
+    justify-content: space-around
+}
+.form{
+    border: solid 10px grey;
+    background-color: rgba(3, 3, 3, 0.767);
+    color: white;
+    text-transform: uppercase;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px
+}
+.form-inscription{
+    border: solid 10px grey;
+    background-color: rgba(3, 3, 3, 0.767);
+    color: white;
+    text-transform: uppercase;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+    padding: 10px
+}
+
+label{
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-bottom: 5
+}
+.ecar{
+    padding: 3px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    width: 250px;
+}
+.div-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100% 100%;
+}
+.big-button{
+    height: 50px;
+    width: 100px;
+    border: 2px solid white;
+    background-color:black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100% 100%;
+}
+/* -----------css_tableau------------- */
+table { 
+    border: solid 3px black;
+    width: 100%; 
+    color: #070707; 
+    font-family: helvetica; 
+    line-height: 5mm; 
+    border-collapse: collapse; 
+}
+img{
+    width: 100%;
+}
+h2 { margin: 0; padding: 0; }
+p { margin: 5px; color: #717375; }
+ th { 
+    border: 1px solid #000;  
+    color: white; 
+    background: #000; 
+    padding: 5px; 
+    font-weight: normal; 
+    font-size: 14px; 
+    text-align: center; 
+}
+ td { 
+    border: 1px solid #CFD1D2; 
+    padding: 5px 10px; 
+    text-align: center; 
+}
+
+/* -----------css__accueil------------- */
+
+.div-center{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    margin : 50px;
+}
